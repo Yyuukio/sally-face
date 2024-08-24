@@ -1,0 +1,101 @@
+@font-face {
+    font-family:'sally face';
+    src: url('Swamp\ Witch.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;   
+}
+@font-face {
+    font-family:'text sally';
+    src: url(DHF\ Story\ Brush.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-image: linear-gradient(to top, rgb(35, 29, 57) 30% , rgb(0, 0, 0) 50%);
+    height: 100%;
+
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(7, 0, 20) 40%, rgb(1, 20, 29));
+    border-radius: 15px;
+    margin-top: 6px;
+    
+}nav {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(7, 0, 20) 40%, rgb(1, 20, 29));
+    border-radius: 15px;
+    margin-top: 6px;
+    
+}
+nav a {
+    font-family:'sally face';
+    text-decoration: none;
+    padding: 16px 40px;
+    display: table;
+    font-size: 35px;
+    color: #61c7ce;
+    letter-spacing: 10px;
+    align-items: center;
+
+}
+
+nav a:hover {
+    background-color: #000000;
+
+}
+.um{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #040308 4%, #231d39 83%);
+    text-align: center;
+    
+}
+.dois{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+}
+h3{
+    font-size: 20px;
+    color: #9a5ece;
+    font-family: 'text sally';
+    letter-spacing: 5px;
+    font-style: normal;
+}
+footer{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    color: #000000;
+    background-color: 231d39;
+}
+.lego{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
